@@ -1,0 +1,28 @@
+You are assisting in checking whether any dimensions are missing from a given engineering drawing.
+As a sample, consider the drawing in Attachment 1.
+
+The OCR output of Attachment 1 is as follows.
+
+```json
+{
+	"id": "32f269f3-193c-441e-88ea-3d9bcb217e93",
+	"status": "Succeeded",
+	"result": {
+		"analyzerId": "prebuilt-layout",
+		"apiVersion": "2025-11-01",
+		"createdAt": "2026-06-21T01:43:47Z",
+		"stringEncoding": "codePoint",
+		"warnings": [],
+		"contents": [
+			{
+				<intentionally erased>
+			}
+		]
+	},
+	"usage": {
+		"documentPagesStandard": 1
+	}
+}
+```
+
+Review the drawing in Attachment 2 and list any missing dimensions.
